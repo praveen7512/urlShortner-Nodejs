@@ -29,6 +29,11 @@ Before you begin, ensure you have met the following requirements:
 - npm (Node Package Manager) installed
 - MongoDB installed locally or accessible through a connection string
 
+## API Endpoints:
+
+ - POST /url: Shorten a URL and store data in MongoDB.
+ - GET /:shortId: Redirect to the original URL.
+
 ## Installation
 
 1. Steps To Setup Project**
